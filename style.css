@@ -1,0 +1,157 @@
+body{
+  background: rgb(227,210,173);
+background: linear-gradient(0deg, rgba(227,210,173,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.sectionA{
+     
+
+	width:70%;
+	float:left;
+	height:automatic;
+
+    box-sizing: border-box;
+    margin:0;
+   	
+}
+.sectionB{   
+  border-left:3vw ;
+	width:30%;
+	float:left;
+	height:automatic;
+	margin:0;
+	padding:10px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.section1{
+  padding-left:20px;
+  
+}
+.section2{
+  padding-left:20px;
+ text-align: right;
+  
+}
+.sectionC{
+ 
+width:100%;
+float:left;
+}
+
+.section11{
+  
+    width:8%;
+    height: auto;
+}
+
+.section12{
+
+  border-left:3vw ;
+ 
+	width:92%;
+	float:right;
+	height:automatic;
+	margin:0;
+	padding:10px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+
+}
+
+#imagenesBajo{
+
+  border-radius: 50%;
+   max-width: 100%;
+   max-height:100px;
+    padding: 0px;
+  width: 100px;
+    margin: 0px;
+}
+#imagenesUltimas{
+
+ 
+   max-width: 100%;
+   max-height:400px;
+    
+    width: 400px;
+    margin: 0px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+#imagenArriba{
+
+  border-radius: 10%;
+   max-width: 100%;
+   max-height:230px;
+    padding: 10px;
+    
+  width: automatic;
+    margin: 0px;
+}
+h1 {
+  font-size: 60px;
+  text-align:center;
+  color: #663b2a;
+}
+p.primerTexto{
+  font-size: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+ul.A {
+  font-size: 18px;
+  list-style-type: square;
+}
+
+
+#customers {
+
+  border-collapse: collapse;
+  font-size: 18px;
+  width: 90%;
+  margin: 20px;
+}
+
+#customers td, #customers th {
+  
+  padding: 8px;
+}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#8e7a66;
+  color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: automatic; 
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+footer{
+  color: white;
+  background-color: #663b2a;
+}
