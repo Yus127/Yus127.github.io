@@ -1,0 +1,75 @@
+
+
+
+
+.cuerpo{
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(201,246,241,1) 100%);
+    
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+.left1, .middle1 {
+  width: 40%;
+}
+
+.right1{
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row1:after1 {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#saludo{
+    font-size: 100px;
+}
+#descript{
+    font-size: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+footer {
+  text-align: center;
+  
+}

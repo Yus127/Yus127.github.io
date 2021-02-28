@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora IMC</title>
+    <link href="styleIMC.css" rel="stylesheet" type="text/css" />
+      
+  </head>
+  <body>
+    <div class= "cuerpo">
+        <h1>Calculadora de IMC</h1>
+        <p>El índice de masa corporal (IMC) al indicador antropométrico del estado de nutrición que se obtiene dividiendo el peso de una persona en kilogramos entre su talla en metros cuadrados (kg/m2). Permite determinar peso bajo, peso normal, sobrepeso y obesidad. (SEGOB, 2018)</p>
+        
+        
+    <form onsubmit = "return false" action="">
+        <div class="row1">
+    <div class="column1 left1">
+    <h2>Su peso (en kilogramos)  </h2>
+      <input type="text" id="peso" \>
+    </div>
+    <div class="column1 middle1">
+    <h2>Su altura (en metros) </h2>
+      <input type="text" id="estatura" \><br>
+    </div>
+    <div class="column1 right1">
+    <h2><br></h2>
+      <input type="submit" onclick = "procesarDatos()"\>
+    </div>
+        </div>    
+    </form>
+        
+        
+        
+        <div class="row">
+  <div class="column left">
+    <h2>Tu IMC es: </h2>
+      <div id="saludo"></div>
+  </div>
+  <div class="column right">
+    <h2>Eso significa</h2>
+  
+      <div id="descript"></div>
+  </div>
+</div>
+        <footer>
+            <p>Autor: Yusdivia Molina Román</p>
+        </footer>
+        
+        
+        
+        
+    </div>
+    <script src="scriptIMC.js"></script>
+  </body>
+</html>
