@@ -22,6 +22,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(201,246,241,1) 
 
 .left1, .middle1 {
   width: 40%;
+  
 }
 
 .right1{
@@ -44,6 +45,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(201,246,241,1) 
 
 .left {
   width: 50%;
+  
 }
 
 .right {
@@ -72,4 +74,9 @@ p{
 footer {
   text-align: center;
   
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
